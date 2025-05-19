@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MindMaze: AI Rival</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div style="margin-top: 10px;">
+        <button onclick="setDifficulty('easy')">Easy</button>
+        <button onclick="setDifficulty('medium')">Medium</button>
+        <button onclick="setDifficulty('hard')">Hard</button>
+        <button onclick="giveHint()">Hint</button>
+    </div>
+            <h1>MindMaze: The AI Rival That Learns You</h1>
+    <canvas id="mazeCanvas" width="600" height="600"></canvas>
+    <div id="infoPanel"></div>
+    <script src="maze.js"></script>
+    <script src="player.js"></script>
+    <script src="ai_agent.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
