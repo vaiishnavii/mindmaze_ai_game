@@ -33,7 +33,7 @@ No external libraries were used — it's lightweight, fast, and easy to extend.
 
 ## 🌐 Try It Out
 
-You can play the game here: [GitHub Pages Demo]((https://vaiishnavii.github.io/mindmaze_ai_game/))  
+You can play the game here: [GitHub Pages Demo](https://vaiishnavii.github.io/mindmaze_ai_game/)
 
 
 ## 💡 Next Steps
