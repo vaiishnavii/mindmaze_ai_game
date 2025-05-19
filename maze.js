@@ -13,6 +13,11 @@ const maze = {
             for (let col = 0; col < this.cols; col++) {
                 ctx.strokeStyle = '#000';
                 ctx.strokeRect(col * cellSize, row * cellSize, cellSize, cellSize);
+            // Highlight goal cell
+            if (row === this.rows - 1 && col === this.cols - 1) {
+                ctx.fillStyle = 'green';
+                ctx.fillRect(col * cellSize + 2, row * cellSize + 2, cellSize - 4, cellSize - 4);
+            }
             }
         }
     }
